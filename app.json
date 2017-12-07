@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/translation/translation",
+    "pages/voice/voice",
+    "pages/wechat/wechat",
+    "pages/skincare/skincare",
+    "pages/facedetection/facedetection"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e7404d",
+    "navigationBarTitleText": "嗨狗",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#e7404d"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#e7404d",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/translation/translation",
+      "text": "翻译",
+      "iconPath": "images/translation.png",
+      "selectedIconPath": "images/translation_focus.png"
+    }, {
+      "pagePath": "pages/voice/voice",
+      "text": "语音",
+      "iconPath": "images/voice.png",
+      "selectedIconPath": "images/voice_focus.png"
+    }, {
+      "pagePath": "pages/wechat/wechat",
+      "text": "聊天",
+      "iconPath": "images/wechat.png",
+      "selectedIconPath": "images/wechat_focus.png"
+    }, {
+      "pagePath": "pages/skincare/skincare",
+      "text": "美颜",
+      "iconPath": "images/skincare.png",
+      "selectedIconPath": "images/skincare_focus.png"
+    }, {
+      "pagePath": "pages/facedetection/facedetection",
+      "text": "人脸",
+      "iconPath": "images/facedetection.png",
+      "selectedIconPath": "images/facedetection_focus.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 1e4,
+    "connectSocket": 1e4,
+    "uploadFile": 1e4,
+    "downloadFile": 1e4
+  },
+  "debug": true
+}

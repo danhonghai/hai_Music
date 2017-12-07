@@ -1,12 +1,8 @@
-# 微信小程序－祝福话
+# 嗨狗微信小程序－但宏海
 
 ### 说明：
 
-实现发送祝福贺卡的功能。
-
-### 数据接口:
-
-- https://api.getweapp.com/vendor/wishes
+实现翻译和聊天机器人功能。
 
 ### 目录结构：
 
@@ -18,10 +14,3 @@
 
 微信web开发者工具 v0.11.122100
 
-### 项目截图：
-
-https://www.getweapp.com/project?projectId=5891f42152e1e8733dc567e6
-
-### 感谢：
-
-本项目原始版本由lemures-t提供：https://github.com/lemures-t/weapp-wishes

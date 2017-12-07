@@ -1,0 +1,5 @@
+<view class="section" style="padding:15px;">
+  <textarea style="border:1px solid #dbdbdb;padding:5px;margin-bottom:10px;width:auto;" bindinput="bindTextAreaBlur" auto-focus placeholder="请输入翻译内容" />
+  <view class="wa-col-20 text-center icon ion-happy-outline" style="line-height:38px;background:#e7404d;color:#fff;" bindtap="translation">中译英</view>
+  <text selectable="true" style="border:1px solid #dbdbdb;padding:5px;margin-bottom:10px;width:auto;height:200px;display:block;margin-top:10px;">{{text}}</text>
+</view>
